@@ -9,10 +9,34 @@ function showFirstMessage (text) {
 
 showFirstMessage ("Hello World!");
 console.log(num);
- 
 
-function calc (a, b) {
-    return (a + b);
+// function calc (a, b) {
+//     return (a + b);  //после return код фукнкции уже не читается.
+// }
+
+// console.log(calc(4, 3));
+// console.log(calc(6, 2));
+
+function ret() {
+    let num = 50;
+
+    //
+
+
+
+    return num;
 }
 
-console.log(calc(4, 3));
+const anotherNum = ret();
+console.log(anotherNum);
+
+const logger = function() {
+console.log("Hello!");
+};
+
+logger();
+
+const calc = (a, b) => {
+    console.log("1");
+    return a + b;
+}

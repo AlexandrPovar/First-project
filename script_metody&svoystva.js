@@ -14,5 +14,8 @@ const fruit = "Some fruit";
 
 console.log(fruit.indexOf("q"));
 
- const num = 12.2;
- console.log(Math.round(num));
+const num = 12.2;
+console.log(Math.round(num));
+
+const test = "12.2px";
+console.log(parseInt(test));

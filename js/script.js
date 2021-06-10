@@ -88,7 +88,8 @@ function writeYourGenres() {
 
 writeYourGenres(personalMovieDB.genres);
 
-
+// 10.06
+// git commit
 
 
 
